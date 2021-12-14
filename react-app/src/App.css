@@ -1,0 +1,82 @@
+.App {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Pusheen-cat-icegif.gif");
+  background-size: 100px 100px;
+  background-repeat: repeat-x;
+  background-clip: border-box 30px;
+  margin: 3em;
+}
+
+.profile-container {
+  padding: 30px;
+  margin: 0px 30px;
+  background-color: floralwhite;
+  border: 1px solid floralwhite;
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr;
+}
+
+.city-container {
+  text-align: left;
+  padding: 10px;
+  margin: 0px 30px;
+  background-color: floralwhite;
+  border: 1px solid floralwhite;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  grid-template-rows: repeat(auto-fill);
+}
+
+.btn-title-hide {
+  border-radius: 4px;
+  background-color: #777;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: min-content;
+}
+
+.btn-title-show {
+  border-radius: 4px;
+  background-color: #9773ec;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: min-content;
+}
+
+.btn-temp-convert {
+  border-radius: 4px;
+  background-color: #9773ec;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: min-content;
+}
+
+.menu {
+  display: grid;
+  margin-top: 2rem;
+  grid-template-columns: 1fr 1fr 2fr;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.menu-item:hover {
+ color: turquoise;
+ text-decoration: underline;
+ cursor: pointer;
+}
+
